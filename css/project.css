@@ -1,0 +1,263 @@
+/* GENERAL */
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0;
+    font-family: WorkSans-Bold;
+    font-size: 3.8rem;
+    letter-spacing: 7.53px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2.3rem;
+    color: #000000;
+    text-align: center;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #333333;
+    margin: 0;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.10);
+    border-radius: 4px;
+    padding: 20px 70px 80px 70px;
+}
+
+.card h2{
+    margin: 0 0 30px -120px;
+    text-align: left;
+}
+
+.text{
+    font-size: 0.9rem;
+    color:#303030;
+    line-height: 27px;
+}
+
+/* HERO */
+#hero .visual{
+    height: calc((100%/5)*3);
+    background-color: #CBF7ED;
+    text-align: center;
+}
+
+#hero .visual img{
+    vertical-align: bottom;
+}
+
+#hero .infos .subtitle{
+    font-size: 1.4rem;
+    color: #999999;
+    letter-spacing: 0;
+}
+
+#hero .infos .container{
+    display: flex;
+    padding: 2rem 0;
+}
+
+#hero .infos .column{
+    width: 50%;
+}
+
+#hero .infos p{
+    font-size: 1rem;
+    color: #303030;
+    line-height: 1.6rem;
+}
+
+/* CHALLENGE */
+#challenge .keywords{
+    display: flex;
+    margin-top: 1.8rem;
+}
+
+#challenge .keywords .card{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    margin-left: 1rem;
+    padding: 1.5rem;
+}
+
+#challenge .keywords .card:first-child{
+    margin-left: 0;
+}
+
+#challenge .keywords .card .icon{
+    width: 1.8rem;
+    max-width: 30px;
+}
+
+#challenge .keywords .card .icon img{
+    width: 100%;
+}
+
+#challenge .keywords .card p{
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+/* APPROACH */
+#approach .steps{
+    margin-top: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#approach .steps .step .icon{
+    width: 77px;
+    height: 77px;
+
+    display: flex;
+    justify-content: center;
+
+    border: 2px solid #C3C3C3;
+    border-radius: 50%;
+}
+
+#approach .steps .step .icon img{
+    width: 100%;
+    max-width: 30px;
+}
+
+/* SOLUTION */
+#solution .cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#solution .card{
+    display: flex;
+
+    width: calc(50% - 1rem);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#solution .card:nth-child(odd){
+    margin-left: 0;
+}
+
+#solution .card .icon{
+    width: 1.8rem;
+}
+
+#solution .card .icon img{
+    width: 100%;
+}
+
+#solution .card .content{
+    padding-left: 1.2rem;
+}
+
+#solution .card .content p{
+    margin: 0.3rem 0;
+}
+
+/* DELIVERABLE */
+#deliverable .infos .nav{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 1.8rem;
+}
+
+#deliverable .infos .nav .icon{
+    width: 19px;
+    height: 19px;
+    border: 1px solid #999999;
+    border-radius: 15%;
+
+    text-align: center;
+}
+
+#deliverable .infos .nav .icon img{
+    width: 80%;
+}
+
+#deliverable .infos .nav .numbers{
+    margin: 0 0.8rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #999999;
+}
+
+#deliverable .infos .nav .active_number{
+    font-weight: 600;
+    font-size: 1.9rem;
+    color: #303030;
+}
+
+#deliverable .infos .text{
+    margin-top: 5px;
+}
+
+.project_navigation{
+    padding: 1.8rem 0;
+    background-color: #F7F7F7;
+}
+
+.project_navigation a{
+    color: #171717;
+    text-decoration: none;
+}
+
+.project_navigation .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_navigation .previous_button{
+    text-align: left;
+}
+
+.project_navigation .next_button{
+    text-align: right;
+}
+
+.project_navigation .step{
+    display: flex;
+}
+
+.project_navigation .step{
+    display: flex;
+}
+
+.project_navigation .step p{
+    margin: 0 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #999999;
+}
+
+.project_navigation .step{
+    font-size: 0.8rem;
+}
+
+.project_navigation .icon{
+    width: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.project_navigation .step .icon img{
+    width: 100%;
+}
+
+.project_navigation .project_title{
+    margin-top: 0.8rem; 
+}
