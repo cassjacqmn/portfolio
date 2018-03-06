@@ -1,101 +1,27 @@
-/*INDEX*/
-section{
-	display: flex;
-}
+/*FONT*/
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700|Work+Sans:400,500,600,700,800');
 
-.projects{
-	width: calc((100%/5)*2);
+*{
 	box-sizing: border-box;
-	/* display: flex;
-
-    flex-wrap: wrap;
-    flex-direction: column;
-	align-items: flex-end; 
-	
-	padding: 50px 40px 0 0; */
 }
 
-.project{
-	margin: 50px 0 0;
-	opacity: 0.3;
-}
-
-.active{
-	opacity: 1;
-}
-
-.project h2{
-	margin: 0;
-
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 700;
-	font-size: 34px;
-	
-	text-transform: uppercase;
-	color:#171717;
-	letter-spacing: 4px;
-}
-
-.project .subtitle{
-	margin: 5px 0 0;
-
-	font-family: 'Oxygen', sans-serif;
+html{
 	font-size: 17px;
-
-	color: #171717;
-	letter-spacing: 0;
 }
 
-.visual{
-	width: calc((100%/5)*3);
-	padding: 20px;
-	box-sizing: border-box;
-	text-align: center;
-}
-
-.visual img{
-	width: 80%;
-}
-
-.circle{
-	position: absolute;
-	top: -50%;
-	right: -50%;
-	z-index: -1;
-
-	width: 100%;
-	height: 200%;
-
-	border-radius: 50%;
-
-	background-color:#CBF7ED;
-}
-
-.rs{
-	position: absolute;
-	bottom: 10px;
-	left: 0;
-}
-
-.rs ul{
-	display: flex;
-	align-items: center;
-	padding: 0;
-	list-style: none;
-}
-
-.rs li{
-	width: 15px;
-	margin-left: 10px;
-}
-
-.rs li img{
-	width: 100%;
-}
-
-.rs .bar{
-	width: 30px;
-	height: 2px;
+body{
 	margin: 0;
-	background-color: #171717;
+	font-family: OpenSans;
+	color: #171717;
+}
+
+button{
+	padding: 15px 25px;
+	background: #000000;
+	box-shadow: 0 10px 20px 0 rgba(82,82,82,0.25);
+	border-radius: 2px;
+
+	font-family: Oxygen-Regular;
+	font-size: 16px;
+	color: #FFFFFF;
 }

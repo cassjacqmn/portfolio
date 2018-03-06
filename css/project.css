@@ -7,20 +7,20 @@
 h1{
     margin: 0;
     font-family: WorkSans-Bold;
-    font-size: 3.8rem;
+    font-size: 3.8em;
     letter-spacing: 7.53px;
     text-transform: uppercase;
 }
 
 h2{
-    font-size: 2.3rem;
+    font-size: 2.3em;
     color: #000000;
     text-align: center;
 }
 
 h3{
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     color: #333333;
     margin: 0;
 }
@@ -38,7 +38,7 @@ h3{
 }
 
 .text{
-    font-size: 0.9rem;
+    font-size: 0.9em;
     color:#303030;
     line-height: 27px;
 }
@@ -55,14 +55,14 @@ h3{
 }
 
 #hero .infos .subtitle{
-    font-size: 1.4rem;
+    font-size: 1.4em;
     color: #999999;
     letter-spacing: 0;
 }
 
 #hero .infos .container{
     display: flex;
-    padding: 2rem 0;
+    padding: 2em 0;
 }
 
 #hero .infos .column{
@@ -70,15 +70,15 @@ h3{
 }
 
 #hero .infos p{
-    font-size: 1rem;
+    font-size: 1em;
     color: #303030;
-    line-height: 1.6rem;
+    line-height: 1.6em;
 }
 
 /* CHALLENGE */
 #challenge .keywords{
     display: flex;
-    margin-top: 1.8rem;
+    margin-top: 1.8em;
 }
 
 #challenge .keywords .card{
@@ -86,8 +86,8 @@ h3{
     align-items: center;
 
     width: 100%;
-    margin-left: 1rem;
-    padding: 1.5rem;
+    margin-left: 1em;
+    padding: 1.5em;
 }
 
 #challenge .keywords .card:first-child{
@@ -95,7 +95,7 @@ h3{
 }
 
 #challenge .keywords .card .icon{
-    width: 1.8rem;
+    width: 1.8em;
     max-width: 30px;
 }
 
@@ -105,12 +105,12 @@ h3{
 
 #challenge .keywords .card p{
     margin: 0;
-    padding-left: 1.2rem;
+    padding-left: 1.2em;
 }
 
 /* APPROACH */
 #approach .steps{
-    margin-top: 4rem;
+    margin-top: 4em;
 
     display: flex;
     justify-content: space-between;
@@ -141,10 +141,10 @@ h3{
 #solution .card{
     display: flex;
 
-    width: calc(50% - 1rem);
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    width: calc(50% - 1em);
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
 }
 
 #solution .card:nth-child(odd){
@@ -152,7 +152,7 @@ h3{
 }
 
 #solution .card .icon{
-    width: 1.8rem;
+    width: 1.8em;
 }
 
 #solution .card .icon img{
@@ -160,11 +160,11 @@ h3{
 }
 
 #solution .card .content{
-    padding-left: 1.2rem;
+    padding-left: 1.2em;
 }
 
 #solution .card .content p{
-    margin: 0.3rem 0;
+    margin: 0.3em 0;
 }
 
 /* DELIVERABLE */
@@ -172,7 +172,7 @@ h3{
     display: flex;
     align-items: center;
 
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.8em;
 }
 
 #deliverable .infos .nav .icon{
@@ -189,15 +189,15 @@ h3{
 }
 
 #deliverable .infos .nav .numbers{
-    margin: 0 0.8rem;
+    margin: 0 0.8em;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.3em;
     color: #999999;
 }
 
 #deliverable .infos .nav .active_number{
     font-weight: 600;
-    font-size: 1.9rem;
+    font-size: 1.9em;
     color: #303030;
 }
 
@@ -206,7 +206,7 @@ h3{
 }
 
 .project_navigation{
-    padding: 1.8rem 0;
+    padding: 1.8em 0;
     background-color: #F7F7F7;
 }
 
@@ -237,14 +237,14 @@ h3{
 }
 
 .project_navigation .step p{
-    margin: 0 0.6rem;
-    font-size: 1.2rem;
+    margin: 0 0.6em;
+    font-size: 1.2em;
     font-weight: 700;
     color: #999999;
 }
 
 .project_navigation .step{
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
 
 .project_navigation .icon{
@@ -259,5 +259,5 @@ h3{
 }
 
 .project_navigation .project_title{
-    margin-top: 0.8rem; 
+    margin-top: 0.8em; 
 }
